@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+
+.jumbotron-fluid {
+    background-image: url('../../img/bg.png');
+    background-size: cover;
+}
+
+.stopCorona {
+    position: relative;
+    margin-top: 40px;
+    animation: animasiCorona 10s linear infinite;
+}
+
+@keyframes animasiCorona {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.kotak {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    bottom: 85px;
+    background-color: white;
+    padding: 20px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.dataProvinsi {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+}
+
+.dataNegara {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 300px;
+}
+
+.dataProvinsi thead th {
+    width: 100%;
+}
+
+.dataNegara thead th {
+    width: 100%;
+}
+
+.dataIndo li {
+    display: inline;
+    text-decoration: none;
+}
